@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.money-details-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  padding: 0px;
+}
+@media screen and (min-width: 768px) {
+  .money-details-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.your-balance-card {
+  list-style-type: none;
+  width: 300px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 15px 10px 10px 20px;
+  margin-bottom: 15px;
+}
+
+.balance {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+}
+.income {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}
+.expenses {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+}
+
+.img {
+  height: 65px;
+  width: 65px;
+  margin-right: 30px;
+}
+.money-details-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #7e858e;
+}
+.value {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #7e858e;
+}
